@@ -8,7 +8,7 @@ const Navbar = () => {
   const [mobileView, setMobileView] = useState(false);
   
   return (
-    <div className="">
+    <div className="bg-green-400">
       <section className="max-w-7xl my-0 mx-auto px-8 py-5">
         <nav className="flex items-center justify-between z-10">
           <Link to={'/'}>
