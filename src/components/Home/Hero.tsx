@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import heroImage from '../../assets/hero-image.jpg'
+import hero from '../../assets/hero-image.jpg'
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full md:w-3/4">
-            <img src={heroImage} alt="hero image" className="w-full object-cover rounded h-full" />
+            <img src={hero} alt="hero image" className="w-full object-cover rounded h-full" />
           </div>
 
         </div>
