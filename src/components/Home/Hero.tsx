@@ -12,7 +12,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full md:w-3/4">
-            <img src={hero} alt="hero image" className="w-full object-cover rounded h-full" />
+            <img src={hero} alt="hero " className="w-full object-cover rounded h-full" />
           </div>
 
         </div>

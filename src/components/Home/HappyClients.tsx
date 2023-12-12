@@ -1,6 +1,6 @@
 import { faStar } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import profilePhoto from '../../assets/female-1.jpg'
+import profile from '../../assets/female-1.jpg'
 
 const HappyClients = () => {
   return (
@@ -12,7 +12,7 @@ const HappyClients = () => {
         </div>
 
         <div className="flex flex-col gap-10 items-center sm:flex-row justify-between md:gap-32">
-          <img src={profilePhoto} alt="profile photo" className=" w-60 h-60 rounded-full" />
+          <img src={profile} alt="a man/woman" className=" w-60 h-60 rounded-full" />
           <div className="flex flex-col gap-4">
             <p className="text-sm">
               Lorem ipsum dolor sit amet consectetur. Commodo pulvinar molestie pellentesque urna libero velit porta. Velit

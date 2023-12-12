@@ -2,7 +2,7 @@ import { Accordion } from "@ark-ui/react"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
-import professionalImage from '../../assets/Professional services.jpg'
+import professional from '../../assets/Professional services.jpg'
 
 const ProfessionalServices = () => {
   return (
@@ -10,7 +10,7 @@ const ProfessionalServices = () => {
       <section className="max-w-6xl my-0 mx-auto px-8 py-5">
         <div className='flex flex-col gap-20 sm:flex-row sm:items-center'>
           <div className={`w-full`}>
-              <img src={professionalImage} alt="professional Service Image" />
+              <img src={professional} alt="professional Service" />
               <h1 className=" text-3xl font-bold text-cyan-950">Professional services Prepared to be your lawyer Firm</h1>
           </div>
 

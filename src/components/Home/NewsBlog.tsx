@@ -17,7 +17,7 @@ const NewsBlog = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
         <div className="flex flex-col gap-4">
-          <img src={blog} alt="Blog Image" className="rounded" />
+          <img src={blog} alt="Blog" className="rounded" />
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-bold text-cyan-950 leading-10 ">7 Cases Have Been Success </h2>
             <hr className="hidden" />
@@ -27,7 +27,7 @@ const NewsBlog = () => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <img src={blog} alt="Blog Image" className="rounded" />
+          <img src={blog} alt="Blog" className="rounded" />
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-bold text-cyan-950 leading-10 ">7 Cases Have Been Success </h2>
             <hr className="hidden" />
@@ -37,7 +37,7 @@ const NewsBlog = () => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <img src={blog} alt="Blog Image" className="rounded" />
+          <img src={blog} alt="Blog" className="rounded" />
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-bold text-cyan-950 leading-10 ">7 Cases Have Been Success </h2>
             <hr className="hidden" />
@@ -47,7 +47,7 @@ const NewsBlog = () => {
         </div>
 
         <div className="flex flex-col gap-4">
-          <img src={blog} alt="Blog Image" className="rounded" />
+          <img src={blog} alt="Blog " className="rounded" />
           <div className="flex flex-col gap-4">
             <h2 className="text-xl font-bold text-cyan-950 leading-10 ">7 Cases Have Been Success </h2>
             <hr className="hidden" />
