@@ -1,6 +1,10 @@
+import ServicesHeader from "../components/Services/ServicesHeader"
+
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+      <ServicesHeader />
+    </>
   )
 }
 

@@ -1,6 +1,10 @@
+import LawyerHeader from "../components/Lawyer/LawyerHeader"
+
 const Lawyer = () => {
   return (
-    <div>Lawyer</div>
+    <>
+      <LawyerHeader />
+    </>
   )
 }
 

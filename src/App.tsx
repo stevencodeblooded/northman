@@ -5,6 +5,7 @@ import Services from "./container/Services";
 import Lawyer from "./container/Lawyer";
 import Contact from "./container/Contact";
 import Layout from "./container/Layout";
+import NotFound from "./container/NotFound";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/Lawyer" element={<Lawyer />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </Router>

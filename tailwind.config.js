@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // 'professional-services': "url('../nortthmanlawfirm/src/assets/Professional services.jpg')",
+        'court': "url('/src/assets/court-room.jpg')",
       }
     },
   },

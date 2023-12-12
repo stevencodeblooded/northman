@@ -56,8 +56,9 @@ const Navbar = () => {
                   <NavLink to={'/Contact'} className={({isActive}) => isActive ? 'px-4 py-2 rounded bg-cyan-950 text-sky-50' : ''} onClick={() => setMobileView(false)}>Contact Us</NavLink>
                 </li>
             </ul>
-          )
+            )
           }
+
         </nav>
       </section>
     </div>

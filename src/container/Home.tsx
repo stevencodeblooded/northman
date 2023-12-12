@@ -1,3 +1,4 @@
+import CarouselComponent from "../components/Home/CarouselComponent"
 import Cta from "../components/Home/Cta"
 import Detail from "../components/Home/Detail"
 import EasenBurden from "../components/Home/EasenBurden"
@@ -19,6 +20,7 @@ const Home = () => {
           <ProfessionalLaywers />
           <Cta />
           <HappyClients />
+          {/* <CarouselComponent /> */}
           <NewsBlog />
     </div>
   )
